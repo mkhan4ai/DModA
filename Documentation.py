@@ -2,7 +2,7 @@ import streamlit as st
 
 def home_page():
     # Add the slide image at the top of the page
-    st.image("Slide1.png", use_column_width=True)
+    st.image("Slide1.PNG", use_column_width=True)
 
     # Add the title of the app
     st.title("Welcome to My Streamlit App")
