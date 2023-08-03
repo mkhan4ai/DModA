@@ -1,8 +1,18 @@
 import streamlit as st
 
 def home_page():
+    # Add the slide image at the top of the page
+    st.image("Slide1.png", use_column_width=True)
+
+    # Add the title of the app
     st.title("Welcome to My Streamlit App")
     st.write("This is the home page of the app.")
+
+    # Add links to datasets
+    st.header("Datasets")
+    st.write("Here are some useful datasets:")
+    st.markdown("[Dataset 1](https://example.com/dataset1)")
+    st.markdown("[Dataset 2](https://example.com/dataset2)")
     
 def about_page():
     st.title("About")
