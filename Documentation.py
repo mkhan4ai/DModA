@@ -5,7 +5,7 @@ def home_page():
     st.image("Slide1.PNG", use_column_width=True)
 
     # Add the title of the app
-    st.title("Welcome to our Streamlit App")
+    st.title("- Mushtari Khan")
     st.write("This is the home page of the app.")
     st.markdown("""
     Welcome to our Global Financial Inclusion Data Mining Project! In this app, we embark on a captivating journey through the Global Financial Inclusion (Global Findex)
