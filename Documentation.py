@@ -19,6 +19,7 @@ def about_page():
     st.write("This is the about page of the app.")
     
 def insights_page():
+    st.image("Slide3.PNG", use_column_width=True)
     st.title("Insights")
     st.write("This is the insights page of the app.")
     
