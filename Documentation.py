@@ -35,10 +35,10 @@ def about_page():
     data = pd.read_csv('HighIncomeGroup.csv')
 
     # Display the data using a DataFrame widget
-    st.write(data)
+    # st.write(data)
 
     # Add a slider to control the number of rows displayed
-    num_rows = st.slider('Select the number of rows to display', min_value=1, max_value=len(data), value=5)
+    num_rows = st.slider('Select the number of rows to display', min_value=1, max_value=len(data), value=50)
     st.write(data.head(num_rows))
 
     
