@@ -5,8 +5,17 @@ def home_page():
     st.image("Slide1.PNG", use_column_width=True)
 
     # Add the title of the app
-    st.title("Welcome to My Streamlit App")
+    st.title("Welcome to our Streamlit App")
     st.write("This is the home page of the app.")
+    st.markdown("""
+    Welcome to our Global Financial Inclusion Data Mining Project! In this app, we embark on a captivating journey through the Global Financial Inclusion (Global Findex)
+    Database 2021 to foster a deeper understanding of financial inclusion worldwide. 
+    Our mission is to leverage powerful data mining techniques to uncover hidden insights, patterns, and trends that shape the landscape of 
+    financial access and usage across the globe. By analyzing the vast wealth of data from the Global Findex 2021, we aim to shed light on key 
+    factors that promote financial inclusion, identify successful strategies, and explore opportunities to empower underserved populations. 
+    Through interactive visualizations and data-driven exploration, we invite you to join us in unraveling the complexities of financial inclusion and together, 
+    pave the way for a more inclusive and equitable financial ecosystem. Let's dive into the data and discover the untold stories of financial inclusion on a global scale!
+    """)
   
 def about_page():
     st.title("About")
