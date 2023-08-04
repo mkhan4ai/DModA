@@ -32,10 +32,7 @@ def about_page():
     st.markdown("[MetaData](https://microdata.worldbank.org/index.php/catalog/4607/data-dictionary)")
     
     # Load your data
-    data = pd.read_csv('data.csv')
-
-    # Add a title
-    st.title('My Interactive Streamlit App')
+    data = pd.read_csv('HighInomeGroup.csv')
 
     # Display the data using a DataFrame widget
     st.write(data)
