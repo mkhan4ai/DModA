@@ -9,10 +9,15 @@ def home_page():
     st.write("This is the home page of the app.")
 
     # Add links to datasets
-    st.header("Datasets")
-    st.write("Here are some useful datasets:")
-    st.markdown("[Dataset 1](https://example.com/dataset1)")
-    st.markdown("[Dataset 2](https://example.com/dataset2)")
+    #st.header("Dataset")
+    st.markdown("""
+       The Global Findex is the world’s most comprehensive database on financial inclusion. 
+       It is also the only global demand-side data source allowing for global and 
+       regional cross-country analysis to provide a rigorous and multidimensional picture of how adults save, 
+       borrow, make payments, and manage financial risks.
+    """)
+    st.markdown("[Dataset](https://microdata.worldbank.org/index.php/catalog/4607/study-description)")
+    st.markdown("[MetaData](https://microdata.worldbank.org/index.php/catalog/4607/data-dictionary)")
     
 def about_page():
     st.title("About")
@@ -28,6 +33,7 @@ def documentation_page():
     st.write("This is the documentation page of the app.")
     
 def code_page():
+    st.image("Slide2.PNG", use_column_width=True)
     st.title("Code")
     st.write("This is the code page of the app.")
     
