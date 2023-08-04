@@ -7,9 +7,11 @@ def home_page():
     # Add the title of the app
     st.title("Welcome to My Streamlit App")
     st.write("This is the home page of the app.")
-
+  
+def about_page():
+    st.title("About")
     # Add links to datasets
-    #st.header("Dataset")
+    st.header("Dataset")
     st.markdown("""
        The Global Findex is the world’s most comprehensive database on financial inclusion. 
        It is also the only global demand-side data source allowing for global and 
@@ -18,10 +20,6 @@ def home_page():
     """)
     st.markdown("[Dataset](https://microdata.worldbank.org/index.php/catalog/4607/study-description)")
     st.markdown("[MetaData](https://microdata.worldbank.org/index.php/catalog/4607/data-dictionary)")
-    
-def about_page():
-    st.title("About")
-    st.write("This is the about page of the app.")
     
 def insights_page():
     st.image("Slide3.PNG", use_column_width=True)
